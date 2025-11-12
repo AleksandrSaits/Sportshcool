@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СпортАкадемия | Детская спортивная школа</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                СпортАкадемия
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">О школе</a></li>
+                <li><a href="#sections" class="nav-link">Секции</a></li>
+                <li><a href="#coaches" class="nav-link">Тренеры</a></li>
+                <li><a href="#schedule" class="nav-link">Расписание</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Главный баннер -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="hero-title">Растим чемпионов вместе!</h1>
+            <p class="hero-subtitle">Профессиональная спортивная подготовка для детей от 4 до 16 лет</p>
+            <div class="hero-buttons">
+                <a href="#sections" class="btn btn-primary">Выбрать секцию</a>
+                <a href="#contact" class="btn btn-secondary">Записаться на пробное</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О школе -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">О нашей школе</h2>
+                <p class="section-subtitle">Почему родители выбирают нас</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Спортивная школа">
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>СпортАкадемия - больше чем просто школа</h3>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-icon">🏆</span>
+                            <div>
+                                <h4>15 лет опыта</h4>
+                                <p>Работаем с 2009 года</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">👨‍🎓</span>
+                            <div>
+                                <h4>500+ учеников</h4>
+                                <p>Успешно тренируются</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">⭐</span>
+                            <div>
+                                <h4>Профессиональные тренеры</h4>
+                                <p>Мастера спорта и КМС</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Мы создаем среду, где каждый ребенок может раскрыть свой потенциал, развить физические навыки и укрепить характер через спорт.</p>
+                    <a href="#contact" class="btn btn-primary">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секции -->
+    <section id="sections" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Спортивные секции</h2>
+                <p class="section-subtitle">Выберите направление для вашего ребенка</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-icon">🥋</div>
+                    <h3>Дзюдо</h3>
+                    <p>Развиваем координацию, гибкость и уверенность в себе для детей 6-14 лет</p>
+                    <span class="service-price">от 3 500 ₽/мес</span>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-icon">🤸</div>
+                    <h3>Гимнастика</h3>
+                    <p>Спортивная и художественная гимнастика для девочек и мальчиков 4-12 лет</p>
+                    <span class="service-price">от 4 000 ₽/мес</span>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-icon">⚽</div>
+                    <h3>Футбол</h3>
+                    <p>Командный спорт для развития выносливости и тактического мышления 5-16 лет</p>
+                    <span class="service-price">от 3 000 ₽/мес</span>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="service-icon">🏊</div>
+                    <h3>Плавание</h3>
+                    <p>Обучение плаванию и совершенствование техники для детей 4-16 лет</p>
+                    <span class="service-price">от 4 500 ₽/мес</span>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="service-icon">🤼</div>
+                    <h3>Борьба</h3>
+                    <p>Вольная и греко-римская борьба для мальчиков 7-16 лет</p>
+                    <span class="service-price">от 3 200 ₽/мес</span>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="service-icon">🏀</div>
+                    <h3>Баскетбол</h3>
+                    <p>Командная игра для развития скорости и координации 8-16 лет</p>
+                    <span class="service-price">от 2 800 ₽/мес</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Тренеры -->
+    <section id="coaches" class="coaches">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Наши тренеры</h2>
+                <p class="section-subtitle">Профессионалы с большим опытом работы</p>
+            </div>
+            <div class="coaches-grid">
+                <div class="coach-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="coach-photo">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Тренер">
+                    </div>
+                    <h3>Алексей Петров</h3>
+                    <p class="coach-sport">Дзюдо</p>
+                    <p class="coach-qualification">Мастер спорта, тренерский стаж 12 лет</p>
+                </div>
+                <div class="coach-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="coach-photo">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Тренер">
+                    </div>
+                    <h3>Мария Сидорова</h3>
+                    <p class="coach-sport">Гимнастика</p>
+                    <p class="coach-qualification">КМС, тренерский стаж 8 лет</p>
+                </div>
+                <div class="coach-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="coach-photo">
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Тренер">
+                    </div>
+                    <h3>Дмитрий Козлов</h3>
+                    <p class="coach-sport">Футбол</p>
+                    <p class="coach-qualification">Мастер спорта, тренерский стаж 15 лет</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Расписание -->
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Расписание занятий</h2>
+                <p class="section-subtitle">Выберите удобное время для тренировок</p>
+            </div>
+            <div class="schedule-table" data-aos="fade-up">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Секция</th>
+                            <th>Возраст</th>
+                            <th>Дни недели</th>
+                            <th>Время</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Дзюдо</td>
+                            <td>6-10 лет</td>
+                            <td>Пн, Ср, Пт</td>
+                            <td>16:00 - 17:30</td>
+                        </tr>
+                        <tr>
+                            <td>Дзюдо</td>
+                            <td>11-14 лет</td>
+                            <td>Пн, Ср, Пт</td>
+                            <td>18:00 - 19:30</td>
+                        </tr>
+                        <tr>
+                            <td>Гимнастика</td>
+                            <td>4-6 лет</td>
+                            <td>Вт, Чт</td>
+                            <td>10:00 - 11:00</td>
+                        </tr>
+                        <tr>
+                            <td>Гимнастика</td>
+                            <td>7-12 лет</td>
+                            <td>Вт, Чт, Сб</td>
+                            <td>16:00 - 17:30</td>
+                        </tr>
+                        <tr>
+                            <td>Футбол</td>
+                            <td>5-8 лет</td>
+                            <td>Пн, Ср, Пт</td>
+                            <td>17:00 - 18:30</td>
+                        </tr>
+                        <tr>
+                            <td>Футбол</td>
+                            <td>9-16 лет</td>
+                            <td>Пн, Ср, Пт</td>
+                            <td>19:00 - 20:30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Записаться на занятие</h2>
+                <p class="section-subtitle">Мы свяжемся с вами в ближайшее время</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Контактная информация</h3>
+                    <div class="contact-item">
+                        <h4>📞 Телефон</h4>
+                        <p>+7 (495) 123-45-67</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>📧 Email</h4>
+                        <p>info@sportacademy.ru</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>📍 Адрес</h4>
+                        <p>г. Москва, ул. Спортивная, 15</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>🕒 Часы работы</h4>
+                        <p>Пн-Пт: 8:00-21:00<br>Сб-Вс: 9:00-19:00</p>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left">
+                    <input type="text" placeholder="Имя родителя" required>
+                    <input type="tel" placeholder="Телефон" required>
+                    <input type="email" placeholder="Email">
+                    <select required>
+                        <option value="">Выберите секцию</option>
+                        <option value="judo">Дзюдо</option>
+                        <option value="gymnastics">Гимнастика</option>
+                        <option value="football">Футбол</option>
+                        <option value="swimming">Плавание</option>
+                        <option value="wrestling">Борьба</option>
+                        <option value="basketball">Баскетбол</option>
+                    </select>
+                    <select required>
+                        <option value="">Возраст ребенка</option>
+                        <option value="4-6">4-6 лет</option>
+                        <option value="7-9">7-9 лет</option>
+                        <option value="10-12">10-12 лет</option>
+                        <option value="13-16">13-16 лет</option>
+                    </select>
+                    <textarea placeholder="Дополнительная информация" rows="4"></textarea>
+                    <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="logo">
+                        <span class="logo-icon">⚡</span>
+                        СпортАкадемия
+                    </div>
+                    <p>Развиваем чемпионов с 2009 года</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Главная</a>
+                    <a href="#about">О школе</a>
+                    <a href="#sections">Секции</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 СпортАкадемия. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
