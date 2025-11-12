@@ -92,4 +92,22 @@ if (contactForm) {
 const fadeObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.classList
+            entry.target.classList.add('fade-in-up');
+        }
+    });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.service-card, .coach-card, .feature').forEach(el => {
+    fadeObserver.observe(el);
+});
+
+// Добавляем текущий год в футер
+document.addEventListener('DOMContentLoaded', function() {
+    const year = new Date().getFullYear();
+    const copyright = document.querySelector('.copyright');
+    if (copyright) {
+        copyright.textContent = `© ${year} СпортАкадемия. Все права защищены.`;
+    }
+});
+
+console.log('🏃 Сайт спортивной школы загружен!');
